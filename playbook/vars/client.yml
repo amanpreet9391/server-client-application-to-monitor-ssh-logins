@@ -1,0 +1,4 @@
+---
+create_containers: 1
+default_container_name: client
+default_container_image: amanpreet9391/client-side

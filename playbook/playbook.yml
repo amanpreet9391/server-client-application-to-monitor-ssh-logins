@@ -1,6 +1,3 @@
-#################################################
-# DO Community Playbooks: Docker
-#################################################
 ---
 - hosts: all
   become: true
@@ -43,5 +40,7 @@
       docker_container:
         name: "{{ default_container_name }}{{ item }}"
         image: "{{ default_container_image }}"
+        published_ports: 12345:12345 #Only required for server
+
         state: present
       with_sequence: count={{ create_containers }}

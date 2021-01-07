@@ -50,4 +50,8 @@ There are 3 ways through which one can configure their instances as client or se
 (3) Ansible Playbook</br>
 If one wants to configure their client or server machines from scratch, this is the best option. The given playbook will install docker, python etc and then will run client
 or server docker container, according to the requirement. 
+</br>
+
+<img width="877" alt="Screenshot 2021-01-07 at 6 13 48 AM" src="https://user-images.githubusercontent.com/25201552/103836570-82ddb980-50af-11eb-8238-7a82489c7a68.png">
+
 

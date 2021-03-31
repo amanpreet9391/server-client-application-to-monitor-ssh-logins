@@ -1,6 +1,20 @@
 # simple-server-client-application
 <img width="483" alt="Screenshot 2021-01-07 at 5 06 10 AM" src="https://user-images.githubusercontent.com/25201552/103833139-3b9efb00-50a6-11eb-90c0-eb9abe553dd5.png">
 
+Topics covered in this project are as follows-</br>
+#### A. Client:</br>
+1) A script/program/service that monitors SSH logins on the system that it is running on and
+reports events to the server</br>
+2) Containerize the client component</br>
+#### B. Server:</br>
+1) A service/API that aggregates events from multiple clients and displays it in a webpage or a
+CLI session.</br>
+2) Show the metrics based on the origin of the event</br>
+3) Containerize the server component</br>
+#### C. Deployment</br>
+1) Provide scripts to automate the deployment of the app on a test environment</br>
+2) You can use Ansible/Terraform/CF or other similar tools for this</br>
+</br>
 This application can be mainly divided into 2 parts -
 ## Client Side
 Client which requests the server.</br>

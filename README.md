@@ -14,7 +14,7 @@ CLI session.</br>
 #### C. Deployment</br>
 1) Provide scripts to automate the deployment of the app on a test environment</br>
 2) You can use Ansible/Terraform/CF or other similar tools for this</br>
-</br>
+
 This application can be mainly divided into 2 parts -</br>
 ## Client Side
 Client which requests the server.</br>

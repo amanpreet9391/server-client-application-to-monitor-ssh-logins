@@ -15,13 +15,13 @@ CLI session.</br>
 1) Provide scripts to automate the deployment of the app on a test environment</br>
 2) You can use Ansible/Terraform/CF or other similar tools for this</br>
 </br>
-This application can be mainly divided into 2 parts -
+This application can be mainly divided into 2 parts -</br>
 ## Client Side
 Client which requests the server.</br>
-This application is being created using `socket programming in python`. A socket is one endpoint of a two way communication link between two programs running on the network.
+This application is being created using `socket programming in python`. A socket is one endpoint of a two way communication link between two programs running on the network. </br>
 The socket programming steps followed on the client side are - </br>
-* Creating the socket with `s=socket.socket()`
-* Connecting to the server `s.connect((host,port))`
+* Creating the socket with `s=socket.socket()` </br>
+* Connecting to the server `s.connect((host,port))` </br>
 * Sending and receiving the data to and from the server `s.recv() & s.send()` </br>
 In this application a service on the client side is continously monitoring SSH logins. SSH related logs are stored in `/var/log/auth.log`. So the client service is monitoring or
 fetching these logs and sending them to the server. Run this command to run the client service --> `python3 client.py`. </br>

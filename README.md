@@ -1,4 +1,4 @@
-# simple-server-client-application
+# Monitoring SSH Logins
 <img width="483" alt="Screenshot 2021-01-07 at 5 06 10 AM" src="https://user-images.githubusercontent.com/25201552/103833139-3b9efb00-50a6-11eb-90c0-eb9abe553dd5.png">
 
 Topics covered in this project are as follows-</br>
